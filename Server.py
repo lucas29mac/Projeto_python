@@ -297,7 +297,7 @@ class ServerThread(Thread):
 
     def run(self): 
         #Insira o Ip do Host em TCP_IP
-        TCP_IP = '192.168.43.135' 
+        TCP_IP = '172.15.0.17' 
         TCP_PORT = 80 
         BUFFER_SIZE = 20  
         tcpServer = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 

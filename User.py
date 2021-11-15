@@ -93,7 +93,7 @@ class ClientThread(Thread):
     def run(self):
 
         
-       host = '25.64.19.191' 
+       host = '192.15.0.17' 
        port = 80
        BUFFER_SIZE = 2000 
        self.window.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
